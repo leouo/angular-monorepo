@@ -3,7 +3,7 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { ComponentsLibModule } from '../../../components-lib/src/public-api';
+import { ComponentsLibModule } from 'components-lib';
 
 @NgModule({
   declarations: [
